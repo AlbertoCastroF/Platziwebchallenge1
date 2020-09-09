@@ -26,12 +26,54 @@ p {
     font-size: 20px;
 }
 
-button {
-    padding: 15px 45px;
-    display: block;
+.button {
+    padding: 15px 50px;
+    display: inline-block;
     cursor: pointer;
-    color: gray;
+    color: mediumslateblue;
     border-radius: 25px;
-    border: none;
+    border: 1px solid;
+    background: white;
+    text-decoration: none;
+}
+
+.contact {
+    justify-content: space-between;
+}
+
+.social {
+    /* border: 5px solid white;
+    justify-content: flex-end; */
+
+}
+
+.social-link {
+    position: relative;
+    right: -1500px;
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    /* border: 5px solid red; */
+    background-size: 35px 35px;
+    margin: 0 10px;
+    
+}
+
+.social-link.facebook {
+    background-image: url('../images/facebook.svg');
+    /* background-size: 50px 50px; */
+
+}
+
+.social-link.github {
+    background-image: url('../images/github.svg');
+    /* background-size: 50px 50px; */
+
+}
+
+.social-link.instagram {
+    background-image: url('../images/instagram.svg');
+    /* background-size: 50px 50px; */
+
 }
 
