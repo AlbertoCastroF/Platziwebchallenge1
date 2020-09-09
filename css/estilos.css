@@ -1,6 +1,37 @@
 body {
-    background-image: url('../images/bg-desktop.svg')
-    background-repeat: space;
+    background-image: url('../images/bg-desktop.svg');
+    background-repeat: no-repeat;
     background-size: cover;
-    /* background-color: red; */
+    background-color: hsl(257, 40%, 49%);
 }
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px
+}
+
+.titulo {
+    font-family: Poppins, 'Times New Roman', Times, serif;
+    font-weight: 700;
+    font-size: 40px;
+    color: white;
+}
+
+p {
+    font-family: "Open sans", 'Times New Roman', Times, serif;
+    color: white;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+button {
+    padding: 15px 45px;
+    display: block;
+    cursor: pointer;
+    color: gray;
+    border-radius: 25px;
+    border: none;
+}
+
