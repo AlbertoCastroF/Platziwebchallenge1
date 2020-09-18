@@ -4,6 +4,7 @@
 
 body {
     /* background-image: url('../images/bg-desktop.svg'); */
+    /* display: flex; */
     background-repeat: no-repeat;
     background-size: cover;
     background-color: hsl(257, 40%, 49%);
@@ -19,7 +20,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 100px
+    margin-top: 100px;
 }
 
 .titulo {
@@ -27,6 +28,7 @@ body {
     font-weight: 700;
     font-size: 40px;
     color: white;
+    width: 600px
 }
 
 p {
@@ -34,6 +36,8 @@ p {
     color: white;
     font-weight: 400;
     font-size: 20px;
+    width: 600px;
+    /* margin: 0; */
 }
 
 .button {
@@ -56,6 +60,7 @@ p {
    justify-content: flex-end;
    margin-top: 3em;
    margin-right: 4em;
+   margin-bottom: 5em;
     /* border: 5px solid white;
     justify-content: flex-end; */
 
@@ -101,4 +106,59 @@ p {
 
 @media screen and (max-width: 426px) {
 
+ body {
+    background-image: url('../images/bg-mobile.svg');
+    /* display: block; */
+ }
+
+ .hero {
+  display: block;
+  text-align: center;
+ }
+
+ .title {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+ }
+
+ .ilustration {
+  width: 100%;
+  margin-bottom: 20px;
+ }
+
+ .titulo {
+  font-size: 2em;
+  margin-bottom: 5px;
+  width: 100%;
+ }
+
+ .parrafo {
+  font-size: 1.2em;
+  width: initial;
+  margin: 5px 30px;
+  /* width: 90%; */
+ }
+
+ .button {
+  padding: 15px 100px;
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-top: 20px;
+ }
+
+ .social {
+  margin: 0;
+  justify-content: center;
+ }
+
+ .social-link {
+  margin: 10px 20px;
+  margin-top: 60px;
+  margin-bottom: 30px;
+  width: 45px;
+  height: 45px;
+  background: no-repeat;
+  background-size: 45px 45px;
+  
 }
