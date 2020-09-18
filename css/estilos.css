@@ -3,7 +3,7 @@
 }
 
 body {
-    background-image: url('../images/bg-desktop.svg');
+    /* background-image: url('../images/bg-desktop.svg'); */
     background-repeat: no-repeat;
     background-size: cover;
     background-color: hsl(257, 40%, 49%);
@@ -52,14 +52,18 @@ p {
 }
 
 .social {
+   display: flex;
+   justify-content: flex-end;
+   margin-top: 3em;
+   margin-right: 4em;
     /* border: 5px solid white;
     justify-content: flex-end; */
 
 }
 
 .social-link {
-    position: relative;
-    right: -1500px;
+    /* position: relative;
+    right: -1500px; */
     display: inline-block;
     width: 35px;
     height: 35px;
@@ -87,3 +91,14 @@ p {
 
 }
 
+@media screen and (max-width: 1441px) {
+
+ body {
+  background-image: url('../images/bg-desktop.svg');
+ }
+ 
+}
+
+@media screen and (max-width: 426px) {
+
+}
